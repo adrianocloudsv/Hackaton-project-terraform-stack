@@ -16,10 +16,11 @@ variable "KEY_NAME" {
   default = "fiap-lab"
 }
 variable "PATH_TO_KEY" {
-  default = "/app/.ssh/fiap-lab.pem"
+  default = "/home/ubuntu/.ssh/fiap-lab.pem"
 }
 variable "INSTANCE_USERNAME" {
   default = "ubuntu"
 }
 variable "ECR_REGISTRY" {
+  default = "111790447756.dkr.ecr.us-east-1.amazonaws.com/hackathon-app"
 }
